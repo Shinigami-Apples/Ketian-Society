@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 4
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "KetianT4.png",
+      "position" : [7, 11.5],
+      "fullbright" : true
+    },
+    {
+      "image" : "KetianT4lit.png",
+      "position" : [7, 11.5]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "KetianT4blocks.png"
+}

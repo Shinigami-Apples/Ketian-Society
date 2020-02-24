@@ -1,0 +1,11 @@
+{
+  "tags" : "Species",
+  "author" : "DrPvtSkittles",
+  "description" : "Basic Template to create your own race.",
+  "friendlyName" : "Skittles Basic Race Template",
+  "link" : "",
+  "name" : "Skittles Basic Race Template",
+  "path" : ".",
+  "steamContentId" : "",
+  "version" : "1"
+}

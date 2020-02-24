@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/Ketian",
+		"value" : [
+		    "/ships/Ketian/Ketiant0.structure",
+			"/ships/Ketian/Ketiant1.structure",
+			"/ships/Ketian/Ketiant2.structure",
+			"/ships/Ketian/Ketiant3.structure",
+			"/ships/Ketian/Ketiant4.structure",
+			"/ships/Ketian/Ketiant5.structure",
+			"/ships/Ketian/Ketiant6.structure",
+			"/ships/Ketian/Ketiant7.structure",
+			"/ships/Ketian/Ketiant8.structure"
+		]
+	}
+]

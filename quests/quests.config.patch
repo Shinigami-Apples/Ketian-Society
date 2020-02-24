@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/Ketian",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/Ketian",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]

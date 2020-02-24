@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/Ketian",
+		"value" : {
+			"aiFrames" : "KetianAI.png",
+			"portraitFrames" : "portraits/Ketianportrait.png",
+			"staticFrames" : "staticKetian.png"	
+		}
+	}
+]
