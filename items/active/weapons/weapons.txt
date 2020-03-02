@@ -1,0 +1,9 @@
+Pistol - normal pistol
+assault rifle - shoots in series of 3
+sniper rifle - normal sniper rifle, aside from alt, shooting time stopping bullets
+shootfun - 20 bullets, alt shooting a grenade
+bow - homing arrows, alt shoots non-homing arrows rapidly
+Broadsword- charging combo, alt "1000 strikes" simmialr to spear flurry
+dagger - normal dagger
+shortsword - normal shortsword
+spear - normal spear, alt is a charge forward
