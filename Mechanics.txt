@@ -1,0 +1,4 @@
+gate special research trough giving a species separate
+tree and separate resource which unlocks nodes
+crafting table for each of trees
+some way to generate foreign "focus" even if it isn't your race's kind
