@@ -1,0 +1,10 @@
+[
+	// move into FU at some point, am currently too lazy to do it atm
+	{ 
+		"op" : "add",
+		"path" : "/ketian",
+		"value" : {
+			"race" : "Ketian"
+		}
+	}
+]
