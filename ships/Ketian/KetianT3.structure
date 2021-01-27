@@ -8,15 +8,15 @@
   },
   "backgroundOverlays" : [
     {
-      "image" : "ketianT3.png",
+      "image" : "KetianT3.png",
       "position" : [8, 14],
       "fullbright" : true
     },
     {
-      "image" : "ketianT3lit.png",
+      "image" : "KetianT3lit.png",
       "position" : [8, 14]
     }
   ],
   "blockKey" : "blockKey.config:blockKey",
-  "blockImage" : "ketianT3blocks.png"
+  "blockImage" : "KetianT3blocks.png"
 }

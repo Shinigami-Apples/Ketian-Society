@@ -1,16 +1,16 @@
 [
 	{ "op" : "add",
-		"path" : "/speciesShips/ketian",
+		"path" : "/speciesShips/Ketian",
 		"value" : [
-		    "/ships/Ketian/ketiant0.structure",		//maybe remove all but tier 0 when the ship system is implemented + FU is required
-			"/ships/Ketian/ketiant1.structure",
-			"/ships/Ketian/ketiant2.structure",
-			"/ships/Ketian/ketiant3.structure",
-			"/ships/Ketian/ketiant4.structure",
-			"/ships/Ketian/ketiant5.structure",
-			"/ships/Ketian/ketiant6.structure",
-			"/ships/Ketian/ketiant7.structure",
-			"/ships/Ketian/ketiant8.structure"
+		    "/ships/Ketian/Ketiant0.structure",
+			"/ships/Ketian/Ketiant1.structure",
+			"/ships/Ketian/Ketiant2.structure",
+			"/ships/Ketian/Ketiant3.structure",
+			"/ships/Ketian/Ketiant4.structure",
+			"/ships/Ketian/Ketiant5.structure",
+			"/ships/Ketian/Ketiant6.structure",
+			"/ships/Ketian/Ketiant7.structure",
+			"/ships/Ketian/Ketiant8.structure"
 		]
 	}
 ]
