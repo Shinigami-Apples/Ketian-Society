@@ -28,5 +28,38 @@
 			"previousState" : "initial",
 			"path" : "root/sail/ui/fixship/ketian"
 		}
+	},
+	{
+		"op" : "add",
+		"path" : "/states/ketianShipPreview", 
+		"value" : {
+			"text" : " ",
+			"buttons" : [
+				{"name" : "Select", "newState" : "ketianShipSelected"}
+			],
+			"previousState" : "ketianShipChoice",
+			"path" : "root/sail/ui/fixship/ketian/preview"
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/states/ketianShipSelected",
+		"value" : {
+			"text" : "The Ketian ship. Upgraded differently. This ship type has access to features that the vanilla ship does not have access to.\n\nCurrently Selected Ship: <shipName>",
+			"buttons" : [
+				{"name" : "Confirm", "newState" : "ketianShipChosen"}
+			],
+			"previousState" : "ketianShipChoice",
+			"path" : "root/sail/ui/fixship/ketian"
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/states/ketianShipChosen",
+		"value" : {
+			"text" : " ",
+			"previousState" : "ketianShipSelected",
+			"path" : "root/sail/ui/fixship/ketian"
+		}
 	}
 ]

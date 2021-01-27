@@ -5,6 +5,11 @@ local origChangeState = changeState or function(newState) end
 function init()
 	origInit()
 	
+	-- to disable this until the rest of the system is ready (completely remove it when it is ready)
+	if true then
+		return
+	end
+	
 	if player.species() == "Ketian" then
 		states.initial = states.ketianInitial or states.initial
 		changeState(state.state)
@@ -38,7 +43,7 @@ function generateShipLists()
 		end
 		if addShip and not ignoreShip then
 			data.id = id
-			data.mode = "Ketian"
+			data.mode = "Buildable"
 			table.insert(ship.ketianShips, data)
 		end
 	end
@@ -55,6 +60,21 @@ function changeState(newState)
 				widget.setButtonEnabled("button" .. i, false)
 			end
 			populateShipList(ship.ketianShips)
+		elseif newState == "ketianShipPreview" then
+			widget.setVisible("root", false)
+			if ship.selectedShip then
+				widget.setVisible("preview", true)
+				widget.setImage("preview", ship.selectedShip.previewImage or "")
+			end
+		elseif newState == "ketianShipSelected" then
+			local text = state.text
+			if text and ship.selectedShip then
+				text = text:gsub("<shipName>", tostring(ship.selectedShip.name))
+				typeText(text)
+			end
+		elseif newState == "ketianShipChosen" then
+			createShip()
+			changeState("shipChosen")
 		end
 	end
 end
