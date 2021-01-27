@@ -1,12 +1,12 @@
 [
   {
     "op": "add",
-    "path": "/KetianStarterTreasure",
+    "path": "/ketianStarterTreasure",
     "value": [[0, {
       "fill" : [
 	    {"item" : [ "flashlight" ]},
         {"item" : [ "torch", 10 ]},
-        {"item" : [ "Ketiansword", 1 ]},
+        {"item" : [ "ketiansword", 1 ]},
         {"item" : [ "cannedfood", 1 ]},
         {"item" : [ "cannedfood", 1 ]},
         {"item" : [ "cannedfood", 1 ]},

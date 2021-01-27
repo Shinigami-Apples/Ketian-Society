@@ -8,12 +8,12 @@
   },
   "backgroundOverlays" : [
     {
-      "image" : "KetianT5.png",
+      "image" : "ketianT5.png",
       "position" : [8.39, 11.88],
       "fullbright" : true
     },
     {
-      "image" : "KetianT5lit.png",
+      "image" : "ketianT5lit.png",
       "position" : [8.39, 11.88]
     }
   ],
