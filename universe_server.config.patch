@@ -3,7 +3,7 @@
 		"path" : "/speciesShips/Ketian",
 		"value" : [
 			// might be worth changing this to only have the T0 ship when the ship system is properly implemented and FU is required
-		    "/ships/Ketian/Ketiant0.structure",	
+			"/ships/Ketian/Ketiant0.structure",	
 			"/ships/Ketian/Ketiant1.structure",
 			"/ships/Ketian/Ketiant2.structure",
 			"/ships/Ketian/Ketiant3.structure",
