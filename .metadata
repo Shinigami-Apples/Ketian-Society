@@ -3,6 +3,7 @@
   "author" : "DrPvtSkittles",
   "description" : "Basic Template to create your own race.",
   "friendlyName" : "Skittles Basic Race Template",
+  "includes" : ["FrackinUniverse"],
   "link" : "",
   "name" : "Skittles Basic Race Template",
   "path" : ".",

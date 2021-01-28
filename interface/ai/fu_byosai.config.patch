@@ -1,0 +1,65 @@
+[
+	{
+		"op" : "add",
+		"path" : "/scripts/-",
+		"value" : "/interface/ai/fu_byosaiketian.lua"
+	},
+	{
+		"op" : "add",
+		"path" : "/states/ketianInitial",
+		"value" : {
+			"text" : "Ship has sustained major damage when escaping earth. Please select which ship type you want:\n\nFrackin Ship:\nBuild your ship, choosing from a variety of presets. Requires installation of a new FTL Drive. See your tricorder quests for guidance.\n\nKetian Ship:\nThe special Ketian ship. Works similarly to space stations. Requires installation of a new FTL Drive. See your tricorder BYOS quests for guidance.",
+			"buttons" : [
+				{"name" : "Frackin Ship", "newState" : "frackinShipChoice"},
+				{"name" : "Ketian Ship", "newState" : "ketianShipChoice"}
+			],
+			"path" : "root/sail/ui/fixship"
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/states/ketianShipChoice",
+		"value" : {
+			"text" : " ",
+			"buttons" : [
+				{"name" : "Select", "newState" : "ketianShipSelected"},
+				{"name" : "Preview", "newState" : "ketianShipPreview"}
+			],
+			"previousState" : "initial",
+			"path" : "root/sail/ui/fixship/ketian"
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/states/ketianShipPreview", 
+		"value" : {
+			"text" : " ",
+			"buttons" : [
+				{"name" : "Select", "newState" : "ketianShipSelected"}
+			],
+			"previousState" : "ketianShipChoice",
+			"path" : "root/sail/ui/fixship/ketian/preview"
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/states/ketianShipSelected",
+		"value" : {
+			"text" : "The Ketian ship. Upgraded differently. This ship type has access to features that the vanilla ship does not have access to.\n\nCurrently Selected Ship: <shipName>",
+			"buttons" : [
+				{"name" : "Confirm", "newState" : "ketianShipChosen"}
+			],
+			"previousState" : "ketianShipChoice",
+			"path" : "root/sail/ui/fixship/ketian"
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/states/ketianShipChosen",
+		"value" : {
+			"text" : " ",
+			"previousState" : "ketianShipSelected",
+			"path" : "root/sail/ui/fixship/ketian"
+		}
+	}
+]
